@@ -39,7 +39,7 @@ class GroupViewSet(viewsets.ReadOnlyModelViewSet):
     permission_classes = (IsOwnerOrReadOnly,)
 
 
-class FollowViewSet(mixins.CreateModelMixin, 
+class FollowViewSet(mixins.CreateModelMixin,
                     mixins.ListModelMixin,
                     viewsets.GenericViewSet):
     serializer_class = FollowSerializer
