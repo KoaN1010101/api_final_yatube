@@ -2,10 +2,10 @@
 Полноценный REST API для социальной сети Yatube. 
 
 # Технологии:
-Python 3.7
-Django 2.2
-Django REST Framework
-JWT
+- Python 
+- Django 
+- Django REST Framework
+- JWT
 
 # Как запустить проект:
 ## Клонировать репозиторий и перейти в него в командной строке:
